@@ -23,7 +23,7 @@ git clone https://github.com/SergeySelya/RBNR_API.git
 7. Запускаем приложение в в PyCharm (файл `manage.py`, опция `runserver`)
 python manage.py runserver
 
-#EndPoints
+# EndPoints
 * rateView/<str:date>/ ( возвращает OK ,  если ответ по курсам на указанную дату <str:date> - успешный)
   <img width="754" alt="image" src="https://github.com/SergeySelya/RBNR_API/assets/88445455/8dbf1982-42f2-44a4-8b19-549d9650d854">
 
