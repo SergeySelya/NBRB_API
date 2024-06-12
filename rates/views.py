@@ -4,6 +4,7 @@ from rest_framework.response import Response
 import requests
 from .mixins import LoggingMixin
 import datetime
+import zlib
 
 
 class ExchangeRateList(LoggingMixin,APIView):
@@ -12,7 +13,7 @@ class ExchangeRateList(LoggingMixin,APIView):
     # returns a response indicating that the data loading was completed correctly
     def get(self,request,date,format=None):
         url = f'https://api.nbrb.by/exrates/rates?ondate={date}&periodicity=0'
-        return Response(status=status.HTTP_200_OK)
+        return Response(status=status.HTTP_200_OK, headers={"CRC32": hex(zlib.crc32(b'Date is correct'))})
 
 class ExchangeRate(LoggingMixin,APIView):
     lookup_fields = ("curr_name","date")
@@ -38,6 +39,6 @@ class ExchangeRate(LoggingMixin,APIView):
         else :
             data.update({"diff_rate": f'{diff_rate} - rate not change'})
 
-        return Response(data, status=status.HTTP_200_OK)
+        return Response(data, headers={"CRC32": hex(zlib.crc32(b'Response is correct'))},status=status.HTTP_200_OK)
 
 

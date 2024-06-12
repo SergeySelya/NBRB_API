@@ -265,3 +265,85 @@ Traceback (most recent call last):
 AttributeError: 'float' object has no attribute 'isdigit'
 2024-06-12 11:52:18,201 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
 2024-06-12 11:52:18,372 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835, 'diff_rate': '0.023400000000000087 - rate increased'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 12:16:09,552 [WARNING] Not Found: / (log.py:241)
+2024-06-12 12:17:13,159 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/456/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:17:13,305 [ERROR] Internal Server Error: /rateView/2023-01-10/456/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 33, in get
+    diff_rate = data['Cur_OfficialRate'] - data_rate_yst['Cur_OfficialRate']
+KeyError: 'Cur_OfficialRate'
+2024-06-12 12:17:20,987 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:17:20,988 [DEBUG] {'response': None, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 12:22:02,933 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:22:03,045 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835, 'diff_rate': '0.023400000000000087 - rate increased'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 12:40:05,226 [WARNING] Not Found: / (log.py:241)
+2024-06-12 12:40:11,431 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/456/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:40:11,980 [ERROR] Internal Server Error: /rateView/2023-01-10/456/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 34, in get
+    diff_rate = data['Cur_OfficialRate'] - data_rate_yst['Cur_OfficialRate']
+KeyError: 'Cur_OfficialRate'
+2024-06-12 12:40:41,240 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:40:41,791 [ERROR] Internal Server Error: /rateView/2023-01-10/RUB/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 42, in get
+    return Response(data,headers={"CRC32": hex(zlib.crc32(bytes(str(data.data), 'utf-8')))}, status=status.HTTP_200_OK)
+AttributeError: 'dict' object has no attribute 'data'
+2024-06-12 12:40:51,008 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:41:00,171 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:41:00,595 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835, 'diff_rate': '0.023400000000000087 - rate increased'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 12:41:06,540 [WARNING] Not Found: /rateView/ (log.py:241)
+2024-06-12 12:41:14,537 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:41:14,537 [DEBUG] {'response': None, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 12:43:13,756 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:43:13,757 [DEBUG] {'response': None, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 12:44:26,988 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 12:44:27,474 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835, 'diff_rate': '0.023400000000000087 - rate increased'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
