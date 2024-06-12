@@ -25,10 +25,12 @@ python manage.py runserver
 
 # EndPoints
 * rateView/<str:date>/ ( возвращает OK ,  если ответ по курсам на указанную дату <str:date> - успешный + добавил CRC32)
+  
  <img width="398" alt="image" src="https://github.com/SergeySelya/RBNR_API/assets/88445455/ac46f922-5d87-4203-8a0e-6a30867d7666">
 
 
 * rateView/<str:date>/<str:curr_name>/ (Возвращает Курс по указанной дате и коду валюты + в поле "diff_rate" отображает курс в сравнении с предыдущим днем + добавил CRC32 )
+  
   <img width="581" alt="image" src="https://github.com/SergeySelya/RBNR_API/assets/88445455/71f6d32f-01eb-464d-952c-4cf51fcec244">
 
 # Все запросы и ответы логируются в "logs/request.log"
