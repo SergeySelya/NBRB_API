@@ -1,4 +1,4 @@
-# RBNR_API (Currency Rates)
+# RBNB_API (Currency Rates)
 
 *Author: Sergey Selivonchik
 
