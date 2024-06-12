@@ -32,4 +32,6 @@ python manage.py runserver
   <img width="581" alt="image" src="https://github.com/SergeySelya/RBNR_API/assets/88445455/71f6d32f-01eb-464d-952c-4cf51fcec244">
 
 # Все запросы и ответы логируются в "logs/request.log"
+<img width="1271" alt="image" src="https://github.com/SergeySelya/NBRB_API/assets/88445455/2483765b-d3db-439d-b8a4-f7bcdbbe3bc9">
+
 
