@@ -7,10 +7,10 @@
 
 1. Клонировать проект
 ```bash
-git clone https://github.com/SergeySelya/RBNR_API.git
+git clone https://github.com/SergeySelya/NBRB_API.git
 ```
 2. Открыть проект в PyCharm с наcтройками по умолчанию
-3. Создать виртуальное окружение (через settings -> project "RBNR_API" -> project interpreter)
+3. Создать виртуальное окружение (через settings -> project "NBRB_API" -> project interpreter)
 4. Открыть терминал в PyCharm, проверить, что виртуальное окружение активировано.
 5. Обновить pip:
    ```bash
