@@ -1,0 +1,267 @@
+2024-06-12 09:54:15,857 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/256/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 09:54:16,011 [DEBUG] {'response': {'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.4', 'title': 'Not Found', 'status': 404, 'traceId': '|6e76355-4d09d1ffec345135.'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 09:54:21,122 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 09:54:21,123 [DEBUG] {'response': None, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:00:16,043 [WARNING] Not Found: / (log.py:241)
+2024-06-12 10:01:16,242 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:01:16,267 [DEBUG] {'response': None, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:02:30,029 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/256/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:02:30,171 [DEBUG] {'response': {'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.4', 'title': 'Not Found', 'status': 404, 'traceId': '|6e7bd53-4d09d1ffec345135.'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:02:41,990 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/265/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:02:42,051 [DEBUG] {'response': {'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.4', 'title': 'Not Found', 'status': 404, 'traceId': '|6e7bed2-4d09d1ffec345135.'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:03:52,712 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/456/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:03:52,816 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:05:10,587 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/456/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:05:10,671 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:05:13,329 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/456/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:05:13,376 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:05:17,987 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RU/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:05:18,033 [DEBUG] {'response': {'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.4', 'title': 'Not Found', 'status': 404, 'traceId': '|6e7ebc9-4d09d1ffec345135.'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:05:23,437 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:05:23,489 [DEBUG] {'response': {'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.4', 'title': 'Not Found', 'status': 404, 'traceId': '|6e7ec9b-4d09d1ffec345135.'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:06:27,685 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:06:27,823 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:06:33,474 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/456/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:06:33,564 [DEBUG] {'response': {'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.4', 'title': 'Not Found', 'status': 404, 'traceId': '|6e7fc5a-4d09d1ffec345135.'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:06:38,889 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:06:39,035 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:16:26,093 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:16:46,442 [WARNING] Not Found: /rateView/2023-01-10/RUB (log.py:241)
+2024-06-12 10:16:58,588 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:17:27,803 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:19:03,560 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:20:00,414 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:31:43,908 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:32:51,902 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:33:07,542 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:38:49,909 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:41:05,036 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:41:08,110 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:41:19,899 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:41:21,183 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:41:21,990 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:43:57,641 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:43:58,640 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:44:24,802 [WARNING] Not Found: /rateView/2023-01-10/RUB (log.py:241)
+2024-06-12 10:44:35,336 [WARNING] Not Found: /rateView/2023-01-10/RUB (log.py:241)
+2024-06-12 10:44:36,185 [WARNING] Not Found: /rateView/2023-01-10/RUB (log.py:241)
+2024-06-12 10:48:31,452 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:48:33,339 [WARNING] Not Found: /rateView/2023-01-10/RUB/ (log.py:241)
+2024-06-12 10:48:58,083 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:48:58,194 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:51:14,702 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:51:14,779 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:57:12,509 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:57:12,606 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 10:58:31,382 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 10:58:31,589 [ERROR] Internal Server Error: /rateView/2023-01-10/RUB/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 24, in get
+    print( date - datetime.timedelta(days=1))
+TypeError: unsupported operand type(s) for -: 'str' and 'datetime.timedelta'
+2024-06-12 11:00:42,998 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:00:43,232 [ERROR] Internal Server Error: /rateView/2023-01-10/RUB/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 24, in get
+    datetime_object = datetime.strptime(date, '%m/%d/%y')
+AttributeError: module 'datetime' has no attribute 'strptime'
+2024-06-12 11:01:36,370 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:01:36,847 [ERROR] Internal Server Error: /rateView/2023-01-10/RUB/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 24, in get
+    datetime_object =  datetime.strptime(date, '%m-%d-%Y').date()
+AttributeError: module 'datetime' has no attribute 'strptime'
+2024-06-12 11:03:01,206 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:03:01,815 [ERROR] Internal Server Error: /rateView/2023-01-10/RUB/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 26, in get
+    datetime_object =  datetime.strptime(date, '%m-%d-%Y').date()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-01-10' does not match format '%m-%d-%Y'
+2024-06-12 11:03:39,941 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:03:40,658 [ERROR] Internal Server Error: /rateView/2023-01-10/RUB/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 27, in get
+    print( datetime_object - datetime.timedelta(days=1))
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+2024-06-12 11:03:41,738 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:03:41,953 [ERROR] Internal Server Error: /rateView/2023-01-10/RUB/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 27, in get
+    print( datetime_object - datetime.timedelta(days=1))
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+2024-06-12 11:04:19,947 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:04:20,254 [ERROR] Internal Server Error: /rateView/2023-01-10/RUB/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 27, in get
+    print( datetime_object )
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+2024-06-12 11:04:24,990 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:04:25,064 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:05:48,801 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:05:48,915 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:10:39,775 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:10:39,889 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:11:04,387 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:11:04,480 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:11:10,206 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:11:10,284 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:11:10,774 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:11:10,855 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:11:44,428 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:11:44,577 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:11:49,496 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:11:49,571 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:12:46,848 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:12:46,964 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:14:44,562 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:14:44,803 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:15:10,515 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:15:10,631 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:15:11,009 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:15:11,112 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:38:00,397 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:38:00,542 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:38:07,014 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:38:07,125 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:42:37,653 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:42:37,819 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835, 'diff_rate': 0.023400000000000087}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
+2024-06-12 11:48:46,106 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:48:46,743 [ERROR] Internal Server Error: /rateView/2023-01-10/RUB/ (log.py:241)
+Traceback (most recent call last):
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/selivonchik/NBRB_API/djangoProject1/.venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/selivonchik/NBRB_API/djangoProject1/rates/views.py", line 33, in get
+    if diff_rate.isdigit():
+AttributeError: 'float' object has no attribute 'isdigit'
+2024-06-12 11:52:18,201 [DEBUG] {'request': {}, 'method': 'GET', 'endpoint': '/rateView/2023-01-10/RUB/', 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:11)
+2024-06-12 11:52:18,372 [DEBUG] {'response': {'Cur_ID': 456, 'Date': '2023-01-10T00:00:00', 'Cur_Abbreviation': 'RUB', 'Cur_Scale': 100, 'Cur_Name': 'Российских рублей', 'Cur_OfficialRate': 3.835, 'diff_rate': '0.023400000000000087 - rate increased'}, 'status_code': 200, 'user': '', 'ip_address': '127.0.0.1', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'} (mixins.py:24)
